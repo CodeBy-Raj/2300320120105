@@ -1,0 +1,15 @@
+{
+  "name": "logging-middleware",
+  "version": "1.0.0",
+  "description": "Express logging middleware demo with Winston and dotenv",
+  "main": "src/test.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/test.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "winston": "^3.13.0"
+  }
+}
