@@ -638,10 +638,19 @@ screenshots/vehicles/
 
 These include:
 
-- Authentication API execution
-- Logging Middleware execution
-- Depots API response
-- Vehicles API response
-- Vehicle Maintenance Scheduler output
-- Notifications API response
-- Priority Inbox output
+### Authentication API execution
+![Authentication API execution](screenshots/auth/Screenshot%202026-06-09%20133800.png)
+
+### Logging Middleware execution
+![Logging Middleware execution](screenshots/logging/Screenshot%202026-06-09%20133917.png)
+
+### Depots API response
+![Depots API response 1](screenshots/depots/Screenshot%202026-06-09%20131025.png)
+![Depots API response 2](screenshots/depots/Screenshot%202026-06-09%20134007.png)
+
+### Vehicles API response
+![Vehicles API response](screenshots/vehicles/Screenshot%202026-06-09%20134055.png)
+
+### Notifications API response & Priority Inbox output
+![Notifications API response](screenshots/notification/Screenshot%202026-06-09%20134130.png)
+![Priority Inbox output](screenshots/notification/image.png)
