@@ -1,5 +1,6 @@
 const axios = require("axios");
-require("dotenv").config();
+const path = require("path");
+require("dotenv").config({ path: path.resolve(__dirname, "../../.env") });
 
 const BASE_URL =
   "http://4.224.186.213/evaluation-service";
