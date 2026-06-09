@@ -69,3 +69,17 @@ including:
 * Notifications API
 * Scheduler Output
 * Priority Inbox Output
+
+## System Design Document
+
+The complete answers for Stage 1 to Stage 6 are available in:
+
+notification_system_design.md
+
+This document contains:
+- API Design
+- Database Design
+- Query Optimization
+- Scaling Strategies
+- Queue-Based Architecture
+- Priority Inbox Design
