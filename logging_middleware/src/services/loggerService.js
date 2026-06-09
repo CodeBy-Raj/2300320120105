@@ -2,7 +2,7 @@ const axios = require("axios");
 const { getAccessToken } = require("../config/auth");
 
 const BASE_URL =
-  "http://20.244.56.144/evaluation-service";
+  "http://4.224.186.213/evaluation-service";
 
 async function sendLog(
   stack,
