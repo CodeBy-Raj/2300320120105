@@ -624,3 +624,24 @@ Advantages:
 * No need to re-sort all notifications
 
 
+
+
+# Screenshots
+
+Project screenshots are available under:
+
+screenshots/logging/
+screenshots/auth/
+screenshots/depots/
+screenshots/notification/
+screenshots/vehicles/
+
+These include:
+
+- Authentication API execution
+- Logging Middleware execution
+- Depots API response
+- Vehicles API response
+- Vehicle Maintenance Scheduler output
+- Notifications API response
+- Priority Inbox output
