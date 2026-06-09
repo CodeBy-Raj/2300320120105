@@ -247,3 +247,45 @@ Email may fail while DB succeeds.
 
 Queue-based retry ensures reliability.
 
+# Stage 6
+
+## Approach
+
+Priority is determined using:
+
+Placement > Result > Event
+
+Weights:
+
+Placement = 3
+Result = 2
+Event = 1
+
+Notifications are sorted by:
+
+1. Weight
+2. Timestamp (Descending)
+
+The first 10 notifications after sorting are returned.
+
+## Complexity
+
+Sorting:
+O(N log N)
+
+Returning Top 10:
+O(10)
+
+Overall:
+O(N log N)
+
+## Future Optimization
+
+For large datasets or continuously arriving notifications:
+
+A Min Heap of size 10 can be maintained.
+
+Insertion:
+O(log 10)
+
+This avoids re-sorting the complete dataset whenever a new notification arrives.
