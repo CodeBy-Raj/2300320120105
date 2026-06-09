@@ -289,3 +289,5 @@ Insertion:
 O(log 10)
 
 This avoids re-sorting the complete dataset whenever a new notification arrives.
+
+![alt text](image.png)
